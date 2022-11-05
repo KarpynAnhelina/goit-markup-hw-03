@@ -41,7 +41,7 @@ img{
 
 
 .section-header{
-border: 1px solid var(--primery-text-color);
+border-bottom: 1px solid #ECECEC;
 }
 
      /* NAVIGATION */
@@ -234,8 +234,14 @@ display: flex;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-  
+    row-gap: 29px;
+    /* column-gap: 34px; */
+}
+.portfolio-list .item{
+    display: flex;
+    flex-basis: calc((100%-29px*2)/3);
+ 
+
 }
    
 /* .portfolio-list .item{
@@ -249,7 +255,6 @@ margin-right: 0px;
 margin-bottom: 0%;
 }  */
 .about-projects{
-    margin-bottom: 30px;
     padding:20px 24px;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
@@ -387,5 +392,5 @@ margin-bottom: 0%;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 5px solid rebeccapurple;
+    /* outline: 5px solid rebeccapurple; */
  }
