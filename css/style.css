@@ -234,12 +234,12 @@ display: flex;
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 29px;
-    /* column-gap: 34px; */
+    gap: 30px;
+  
 }
 .portfolio-list .item{
     display: flex;
-    flex-basis: calc((100%-29px*2)/3);
+    flex-basis: calc((100% - 30px*2)/3);
  
 
 }
